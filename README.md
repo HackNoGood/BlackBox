@@ -25,10 +25,30 @@ When the host disconnects, the Black Site disappears.
 
 ---
 
-## 🧰 Installation
-### Clone & Build
+## ⚙️ Installation Guide
+
+BlackBox is written in Go and runs natively on Windows, Linux, and macOS.  
+Follow these steps to build and launch it from source.
+
+---
+
+### 🧩 1. Requirements
+- [Go 1.22+](https://go.dev/dl/)  
+  > ✅ On Windows, make sure **“Add Go to PATH”** is checked during installation.  
+- Git (for cloning)
+
+Verify Go is installed:
 ```bash
+go version
+
 git clone https://github.com/HackNoGood/BlackBox.git
 cd BlackBox
 go mod tidy
 go build -o blackbox
+
+go build -o blackbox.exe
+.\blackbox.exe
+
+./blackbox
+
+
