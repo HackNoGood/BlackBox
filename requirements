@@ -1,0 +1,11 @@
+## 🧩 Software Requirements
+
+### Go 1.22+
+👉 [Download Go](https://go.dev/dl/)
+
+**Windows Users:**  
+During installation, make sure “Add Go to PATH” is checked.
+
+**Verify Installation:**
+```bash
+go version
